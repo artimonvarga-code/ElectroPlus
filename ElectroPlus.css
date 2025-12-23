@@ -1,0 +1,76 @@
+/* ===== VARIABLES DE COLOR ===== */
+:root {
+  --azul-oscuro: #0a2540;
+  --amarillo-limon: #ffd500;
+  --verde: #2ecc71;
+  --gris-claro: #f4f6f8;
+  --negro: #000000;
+}
+
+/* ===== ESTILOS GENERALES ===== */
+body {
+  background-color: var(--gris-claro);
+  color: #1f2933;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* ===== HEADER ===== */
+header {
+  background-color: var(--azul-oscuro);
+  color: white;
+}
+
+header h1 {
+  color: var(--amarillo-limon);
+}
+
+header p {
+  color: #e5e7eb;
+}
+
+/* ===== TITULOS ===== */
+h1, h2, h3 {
+  color: var(--negro);
+}
+
+/* ===== SECCIONES ===== */
+section {
+  border-radius: 12px;
+}
+
+.bg-blue-50 {
+  background-color: #e8f0fa;
+}
+
+.bg-blue-600 {
+  background-color: var(--azul-oscuro);
+}
+
+/* ===== LISTAS ===== */
+ul li::marker {
+  color: var(--verde);
+}
+
+/* ===== BOTÓN PRINCIPAL ===== */
+a.boton-cta {
+  background-color: var(--amarillo-limon);
+  color: var(--azul-oscuro);
+  padding: 14px 36px;
+  border-radius: 999px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+a.boton-cta:hover {
+  background-color: var(--verde);
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #ffffff;
+  color: #6b7280;
+  border-top: 1px solid #e5e7eb;
+}
